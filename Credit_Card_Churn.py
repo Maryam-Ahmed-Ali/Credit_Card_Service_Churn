@@ -16,7 +16,7 @@ based on data insights and machine learning models to know who are more likely t
 
 #@st.cache
 # def loading_data():
-#     data =pd.read_csv(r"C:\Users\lenovo\Desktop\streamlit\BankChurners.csv")
+#     data =pd.read_csv("BankChurners.csv")
 #     data = data.iloc[:,1:]
 #     return data
 
