@@ -20,7 +20,7 @@ based on data insights and machine learning models to know who are more likely t
 #     data = data.iloc[:,1:]
 #     return data
 
-data = pd.read_csv("https://github.com/Maryam-Ahmed-Ali/Credit_Card_Service_Churn/blob/master/BankChurners.csv")
+data = pd.read_csv("https://github.com/Maryam-Ahmed-Ali/Credit_Card_Service_Churn/blob/master/BankChurners.csv",error_bad_lines=False)
 data.head()
 
 data.info()
